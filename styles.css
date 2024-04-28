@@ -1,0 +1,41 @@
+body {
+    background-color: #1D2326;
+    color: #BFA38A;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  legend {
+    font-size: 2rem;
+  }
+  
+  p,
+  .placeholder,
+  label,
+  #option-text,
+  #dropdown {
+    font-size: 1.3rem;
+  }
+  
+  fieldset {
+    border-radius:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  
+  #question,
+  #drop-descrip,
+  #textarea-descrip {
+    display: block;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+
+  input {
+    margin-top:5px;
+    margin-bottom:5px;
+    display: block;
+  }

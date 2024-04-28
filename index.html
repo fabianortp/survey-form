@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Student Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <div class="survey">
+            <h1 id="title">Student Survey Form</h1>
+            <p id="description">Welcome to our Student Experience Survey! Your feedback is invaluable in helping us improve our institution </p>
+            <form id="survey-form">
+                <fieldset>
+                    <legend>Student Information</legend>
+                    <label id="name-label">Name</label>
+                    <input id="name" type="text" class="placeholder" placeholder=" Enter your name" required>
+                    <label id="email-label">Email</label>
+                    <input id="email" type="email" class="placeholder" placeholder=" Enter your Email" required>
+                    <label id="course-label">Program/Course of Study</label>
+                    <input id="course" type="text" class="placeholder" placeholder=" Enter your Program/Course of Study">
+                    <label id="number-label">Age</label>
+                    <input id="number" type="number" class="placeholder" placeholder=" Age" min="16" max="40">
+                    <label id="gender-label">Gender</label>
+                    <input id="gender" type="text" class="placeholder" placeholder=" Enter your Gender">
+                    <label id="race-label">Ethnicity/Race(optional)</label>
+                    <input id="race" type="text" class="placeholder" placeholder=" Enter your Ethnicity/Race">
+                </fieldset>
+                
+            </form>
+        </div>
+    </body>
+</html>
