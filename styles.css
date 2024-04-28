@@ -39,3 +39,11 @@ body {
     margin-bottom:5px;
     display: block;
   }
+
+  .radio-group div,
+  .extractiv div {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
