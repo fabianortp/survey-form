@@ -48,3 +48,12 @@ body {
   margin-bottom: 7px;
 }
 
+#submit {
+  display: block;
+  align-items: center;
+  margin-top: 16px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  font-size: 1.7rem;
+}
